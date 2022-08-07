@@ -1,7 +1,7 @@
 ALX AirBnB Project
 
 <p align="center">
-  <img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220807%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220807T134622Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=322ebc9467c9e8b943c9a8e348a783967fd1cc9ace682b28d6b063d24d08a1f9" alt="HBnB logo">
+  <img src= alt="HBnB logo">
 </p>
 
 <h1 align="center">AirBnB</h1>
@@ -32,7 +32,7 @@ HBnB utilizes the following classes:
 The above classes are handled by the abstracted storage engine defined in the 
 [FileStorage](./models/engine/file_storage.py) class.
 
-Every time the backend is initialized, HolbertonBnB instantiates an instance of 
+Every time the backend is initialized, HBnB instantiates an instance of 
 `FileStorage` called `storage`. The `storage` object is loaded/re-loaded from 
 any class instances stored in the JSON file `file.json`. As class instances are 
 created, updated, or deleted, the `storage` object is used to register 
@@ -61,7 +61,7 @@ EOF  all  count  create  destroy  help  quit  show  update
 $
 ```
 
-Alternatively, to use the HolbertonBnB console in interactive mode, run the 
+Alternatively, to use the HBnB console in interactive mode, run the 
 file `console.py` by itself:
 
 ```
@@ -92,7 +92,7 @@ $
 
 ### Console Commands
 
-The HolbertonBnB console supports the following commands:
+The HBnB console supports the following commands:
 
 * **create**
   * Usage: `create <class>`
@@ -250,7 +250,7 @@ lberton', 'updated_at': datetime.datetime(2019, 2, 17, 21, 54, 39, 234382), 'id
 
 ## Testing :straight_ruler:
 
-Unittests for the HolbertonBnB project are defined in the [tests](./tests) 
+Unittests for the HBnB project are defined in the [tests](./tests) 
 folder. To run the entire test suite simultaneously, execute the following command:
 
 ```
