@@ -1,24 +1,24 @@
 ALX AirBnB Project
 
 <p align="center">
-  <img src="https://github.com/bdbaraban/AirBnB_clone/blob/master/assets/hbnb_logo.png" alt="HolbertonBnB logo">
+  <img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220807%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220807T134622Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=322ebc9467c9e8b943c9a8e348a783967fd1cc9ace682b28d6b063d24d08a1f9" alt="HBnB logo">
 </p>
 
-<h1 align="center">HolbertonBnB</h1>
+<h1 align="center">AirBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
 ---
 
 ## Description :house:
 
-HolbertonBnB is a complete web application, integrating database storage, 
+HBnB is a complete web application, integrating database storage, 
 a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
 ## Classes :cl:
 
-HolbertonBnB utilizes the following classes:
+HBnB utilizes the following classes:
 
 |     | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 | --- | --------- | ----------- | -----| ----- | -----| ------- | ----- | ------ |
@@ -41,12 +41,12 @@ corresponding changes in the `file.json`.
 ## Console :computer:
 
 The console is a command line interpreter that permits management of the backend 
-of HolbertonBnB. It can be used to handle and manipulate all classes utilized by 
+of HBnB. It can be used to handle and manipulate all classes utilized by 
 the application (achieved by calls on the `storage` object defined above).
 
 ### Using the Console
 
-The HolbertonBnB console can be run both interactively and non-interactively. 
+The HBnB console can be run both interactively and non-interactively. 
 To run the console in non-interactive mode, pipe any command(s) into an execution 
 of the file `console.py` at the command line.
 
@@ -238,13 +238,6 @@ $ ./console.py
 (hbnb) create User
 6f348019-0499-420f-8eec-ef0fdc863c02
 (hbnb)
-(hbnb) update User 6f348019-0499-420f-8eec-ef0fdc863c02 first_name "Holberton"
-(hbnb) show User 6f348019-0499-420f-8eec-ef0fdc863c02
-[User] (6f348019-0499-420f-8eec-ef0fdc863c02) {'created_at': datetime.datetime(
-2019, 2, 17, 21, 54, 39, 234382), 'first_name': 'Holberton', 'updated_at': date
-time.datetime(2019, 2, 17, 21, 54, 39, 234382), 'id': '6f348019-0499-420f-8eec-
-ef0fdc863c02'}
-(hbnb)
 (hbnb) User.update(6f348019-0499-420f-8eec-ef0fdc863c02, address, "98 Mission S
 t")
 (hbnb) User.show(6f348019-0499-420f-8eec-ef0fdc863c02)
@@ -252,14 +245,6 @@ t")
 2019, 2, 17, 21, 54, 39, 234382), 'address': '98 Mission St', 'first_name': 'Ho
 lberton', 'updated_at': datetime.datetime(2019, 2, 17, 21, 54, 39, 234382), 'id
 ': '6f348019-0499-420f-8eec-ef0fdc863c02'}
-(hbnb)
-(hbnb) User.update(6f348019-0499-420f-8eec-ef0fdc863c02, {'email': 'holberton@h
-olberton.com', 'last_name': 'School'})
-[User] (6f348019-0499-420f-8eec-ef0fdc863c02) {'email': 'holberton@holberton.co
-m', 'first_name': 'Holberton', 'updated_at': datetime.datetime(2019, 2, 17, 21,
-54, 39, 234382), 'address': '98 Mission St', 'last_name': 'School', 'id': '6f34
-8019-0499-420f-8eec-ef0fdc863c02', 'created_at': datetime.datetime(2019, 2, 17,
-21, 54, 39, 234382)}
 (hbnb) 
 ```
 
@@ -277,7 +262,3 @@ Alternatively, you can specify a single test file to run at a time:
 ```
 $ python3 unittest -m tests/test_console.py
 ```
-
-## Authors :black_nib:
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
-* **Samie Azad** <[sazad44](https://github.com/sazad44)>
