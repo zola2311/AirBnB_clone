@@ -1,12 +1,4 @@
 ALX AirBnB Project
-
-<p align="center">
-  <img src= alt="HBnB logo">
-</p>
-
-<h1 align="center">AirBnB</h1>
-<p align="center">An AirBnB clone.</p>
-
 ---
 
 ## Description :house:
